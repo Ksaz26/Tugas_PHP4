@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('https://images.pexels.com/photos/6341567/pexels-photo-6341567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #C08B5C;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #FFC94A;
+}
+.menu-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.menu-item:last-child {
+    border-bottom: none;
+}
+.menu-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+.menu-item-content {
+    flex: 1;
+}
+.menu-item h3 {
+    margin-top: 0;
+}
+.menu-item p {
+    margin: 5px 0;
+    color: #666;
+}
+.menu-item .price {
+    font-weight: bold;
+    color: #333;
+}
+.booking-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.booking-form h2 {
+    margin-top: 0;
+}
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"],
+.booking-form input[type="date"],
+.booking-form input[type="time"],
+.booking-form textarea,
+.booking-form select,
+.booking-form input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+}
+.booking-form textarea {
+    height: 100px;
+}
+.booking-form select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 14l-6-6h12l-6 6z" fill="#333"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    padding-right: 30px;
+}
+.booking-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.booking-form input[type="submit"]:hover {
+    background-color: #555;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+}
+#back-to-top:hover {
+    background-color: #555;
+}
